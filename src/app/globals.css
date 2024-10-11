@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #101518;
+  --primary: #214562;
+  --secondary: #101518;
+  --accent: #4ecb71;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #101518;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+.sliding-image {
+  background-image: url('/assets/worker3.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  @apply text-[28px] md:text-[36px] xl:text-[48px] leading-[120%] md:leading-[110%] xl:leading-[115%] tracking-[1.2px] font-montserrat;
+}
+h2 {
+  @apply text-[20px] md:text-[24px] xl:text-[36px] leading-[120%] md:leading-[110%] xl:leading-[115%] tracking-[1.2px] font-montserrat;
+}
+h3 {
+  @apply text-[16px] md:text-[20px] xl:text-[24px] leading-[120%] md:leading-[110%] xl:leading-[115%] tracking-[1.2px] font-montserrat;
+}
+h4 {
+  @apply text-[12px] md:text-[16px] xl:text-[18px] leading-[120%] md:leading-[110%] xl:leading-[115%] tracking-[1.2px] font-montserrat;
+}
+h5 {
+  @apply text-[10px] md:text-[14px] xl:text-[16px] leading-[120%] md:leading-[110%] xl:leading-[115%] tracking-[1.2px] font-montserrat;
+}
+h6 {
+  @apply text-[8px] md:text-[12px] xl:text-[14px] leading-[120%] md:leading-[110%] xl:leading-[115%] tracking-[1.2px] font-montserrat;
+}
+p {
+  @apply text-[16px] md:text-[16px] xl:text-[18px] leading-[150%] md:leading-[140%] xl:leading-[145%] tracking-[1.2px] font-montserrat;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.slick-arrow {
+  display: none;
+}
+.slick-slide {
+  height: auto;
+  min-height: fit-content;
+}
+.slick-slide {
+  height: auto;
+}
+.slick-track {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
