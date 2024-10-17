@@ -32,15 +32,16 @@ const ContactInfo: FC = () => {
       <h2 className="text-sm text-green-600 uppercase mb-2">Get in touch</h2>
       <h1 className="text-4xl font-bold mb-4">We'd love to hear from you</h1>
       <p className="text-gray-600 mb-8">
-        Nostra vivamus tristique cras ante porttitor habitasse rutrum pede.
-        Faucibus nam cursus ultricies a dolor eleifend adipiscing.
+        "Our future lives in the hustle; in front, we face the gateway to
+        habitations, where we tread. The flow of life leads the course,
+        gracefully navigating the pain and lifting our growth."
       </p>
 
       <ContactService
         icon={<MdBusiness size={32} />}
         title="Contact Details"
-        phone="+61 3257 345 4759"
-        email="email@yourdomain.com"
+        phone="+61 452 426 031"
+        email="removalsbb@gmail.com"
       />
       {/* <ContactService
         icon={<MdBusiness size={32} />}

@@ -98,26 +98,18 @@ const ContactPage = () => {
                 />
               </div>
               {loading ? (
-                <div className="w-full text-center h-fit flex items-center justify-center rounded-md bg-green-700 py-4">
+                <div className="inline-flex justify-center py-1 px-16 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                   <Loader color="white" />
                 </div>
               ) : (
                 <Button
                   disabled={loading}
-                  className="w-fit text-center h-fit"
+                  className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
                   type="submit"
                 >
                   SEND MESSAGE
                 </Button>
               )}
-              {/* <div>
-                <button
-                  type="submit"
-                  className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
-                >
-                  
-                </button>
-              </div> */}
             </form>
           </FormProvider>
         </div>

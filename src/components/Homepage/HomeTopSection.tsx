@@ -14,10 +14,10 @@ const HomeTopSection = () => {
       >
         <div className="grid items-center lg:grid-cols-3 gap-10 md:py-20 w-full px-6">
           <div className="md:col-span-2 py-40 md:py-0 px-4 space-y-4 animate__animated animate__fadeInLeft">
-            <h1 className="text-6xl font-bold text-white text-center lg:text-left">
+            <h1 className="text-4xl md:text-6xl font-bold text-white text-center lg:text-left">
               Our aim is to satisfy customers.
             </h1>
-            <p className="text-white text-xl text-center lg:text-left">
+            <p className="text-white md:text-xl text-center lg:text-left">
               Your Trusted Family Moving Company in Sydney, Australia
             </p>
           </div>

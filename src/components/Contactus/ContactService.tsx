@@ -13,7 +13,7 @@ const ContactService: FC<ContactServiceProps> = ({
   phone,
   email,
 }) => (
-  <div className="flex lg:!flex-row flex-col justify-between items-center py-4">
+  <div className="flex lg:!flex-row flex-col justify-between items-center py-4  rounded-md shadow">
     <div className="flex items-center">
       <div className="flex gap-6 items-center">
         <div className="w-16 h-16 ml-4 flex justify-center items-center bg-custom-blue rounded-md text-white">
@@ -28,9 +28,9 @@ const ContactService: FC<ContactServiceProps> = ({
         <p className="text-gray-600">{email}</p>
       </div>
     </div>
-    <button className="text-green-600 border lg:w-[150px] border-green-600 w-full rounded-md px-4 py-2 hover:bg-green-600 hover:text-white transition">
+    {/* <button className="text-green-600 border lg:w-[150px] border-green-600 w-full rounded-md px-4 py-2 hover:bg-green-600 hover:text-white transition">
       Get a Quote
-    </button>
+    </button> */}
   </div>
 );
 

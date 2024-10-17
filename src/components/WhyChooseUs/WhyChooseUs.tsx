@@ -40,13 +40,13 @@ export default function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-12 gap-10">
         <div className="flex flex-col w-full lg:col-span-7">
           <AnimationOnScroll classNameInView="animate__fadeInUp">
-            <h2 className="text-base font-semibold font-helvetica text-primary-green text-center lg:text-left">
+            <h2 className="text-base font-semibold font-helvetica text-primary-green text-center lg:text-left bg-red-100">
               WHY CHOOSE US
             </h2>
-            <p className="mt-2 text-[40px] font-extrabold font-helvetica max-w-lg mx-auto tracking-normal leading-none text-black text-center lg:text-left">
+            <p className="mt-2 text-[40px] font-extrabold font-helvetica mx-auto tracking-normal leading-none text-black text-center lg:text-left">
               We’ll take care of your stuff like it was our own
             </p>
-            <p className="py-4 text-gray text-lg tracking-normal font-helvetica font-medium text-center lg:text-left max-w-lg mx-auto">
+            <p className="py-4 text-gray text-lg tracking-normal font-helvetica font-medium text-center lg:text-left mx-auto">
               At our company, we treat your belongings with the utmost care and
               respect, ensuring they are safely packed, transported, and handled
               as if they were our own. Your peace of mind is our priority, and

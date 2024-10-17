@@ -10,7 +10,7 @@ const FindCoverage = () => {
           <div className="flex gap-4">
             <div className="flex gap-2 text-white lg:border-r border-white/30 items-center pr-4">
               <Phone fill="#4ECA71" size={18} className="text-primary-green" />
-              <span>+61 3257 345 4759</span>
+              <span>+61 452 426 031</span>
             </div>
 
             <div className="md:flex gap-2 text-white hidden items-center">
@@ -20,7 +20,7 @@ const FindCoverage = () => {
           </div>
 
           <div className="hidden xs:block py-1">
-            <Link href={`tel:${98989898988}`}>
+            <Link href={`tel:${+61452426031}`}>
               <span className="border-none px-6 py-3 text-sm text-md bg-primary-green rounded-md uppercase text-white font-semibold tracking-0">
                 Contact Us
               </span>
